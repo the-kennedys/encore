@@ -1,0 +1,16 @@
+---
+
+- name: run the playbook tasks on the localhost
+  hosts: 127.0.0.1
+  connection: local
+  become: yes
+  tasks:
+
+  - name: install meson
+    dnf: 
+       name: 
+          - meson
+          - clang
+          - gtk3-devel
+       state: latest
+
