@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/uk/me/pdkk/encore">
+    <file preprocess="xml-stripblanks">encore.ui</file>
+    <file preprocess="xml-stripblanks">entry.ui</file>
+  </gresource>
+</gresources>
